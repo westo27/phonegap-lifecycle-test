@@ -11,7 +11,7 @@ window.localStorage.setItem("pen",value);
 var value = window.localStorage.getItem("pen");
 
 //simple
-//window.alert(value);
+window.alert(value);
 
 //better
 $(function () {          
