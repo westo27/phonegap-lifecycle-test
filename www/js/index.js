@@ -24,4 +24,10 @@ var chocolateArray = [{
     "price": "50p",
 }];
     
-window.alert(chocolateArray[0].name);
+var output = '';
+$.each(chocolateArray, function(index, value) {
+    output += '<li>' + value.name + '</li>';
+})
+document.getElementById("demo").innerHTML = output;
+
+//window.alert(chocolateArray[0].name);
