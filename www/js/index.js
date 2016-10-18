@@ -4,9 +4,9 @@
 //window.localStorage.setItem(computer, dell);
 
 //phone
-var phoneValue = "motorola"
-window.localStorage.setItem("phone", motorola);
-var phoneValue = window.localStorage.setItem("phone")
+//var phoneValue = "motorola"
+//window.localStorage.setItem("phone", motorola);
+//var phoneValue = window.localStorage.setItem("phone")
 
 //pen
 var penValue = "blue";
