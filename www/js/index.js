@@ -24,4 +24,4 @@ var chocolateArray = [{
     "price": "50p",
 }];
     
-window.alert(chocolateArray);
+window.alert(chocolateArray[0].name);
