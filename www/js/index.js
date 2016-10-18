@@ -2,11 +2,7 @@
 //window.localStorage.setItem(notepad, writing);
 //window.localStorage.setItem(pen, blue);
 //window.localStorage.setItem(computer, dell);
-
-//phone
-//var phoneValue = "motorola"
-//window.localStorage.setItem("phone", motorola);
-//var phoneValue = window.localStorage.setItem("phone")
+//window.localStorage.setItem(phone, motorola);
 
 //pen
 var penValue = "blue";
@@ -17,5 +13,3 @@ var penValue = window.localStorage.getItem("pen");
 $(function () {          
     $("#myText").text(penValue);
 });
-
-window.alert(localStorage.length);
