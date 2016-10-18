@@ -8,7 +8,7 @@ var value = "blue";
 
 window.localStorage.setItem("pen",value);
 
-var value = window.localStorage.getItem(key);
+var value = window.localStorage.getItem("pen");
 
 //simple
 //window.alert(value);
