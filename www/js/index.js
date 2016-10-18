@@ -5,13 +5,23 @@
 //window.localStorage.setItem(phone, motorola);
 
 //pen
-var penValue = "blue";
-window.localStorage.setItem("pen",penValue);
-var penValue = window.localStorage.getItem("pen");
+//var penValue = "blue";
+//window.localStorage.setItem("pen",penValue);
+//var penValue = window.localStorage.getItem("pen");
 
 //better text output
-$(function () {          
-    $("#myText").text(penValue);
-});
+//$(function () {          
+    //$("#myText").text(penValue);
+//});
 
-window.alert(window.localStorage.length);
+//window.alert(window.localStorage.length);
+
+var chocolateArray = [{
+    "name": "cadburys caramel",
+    "price": "£1",
+    }, {
+    "name": "creme egg",
+    "price": "50p",
+}];
+    
+window.alert(chocolateArray);
