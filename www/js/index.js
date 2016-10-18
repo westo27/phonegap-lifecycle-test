@@ -13,3 +13,5 @@ var penValue = window.localStorage.getItem("pen");
 $(function () {          
     $("#myText").text(penValue);
 });
+
+window.alert(window.localStorage.length);
