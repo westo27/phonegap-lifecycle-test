@@ -2,18 +2,20 @@
 //window.localStorage.setItem(notepad, writing);
 //window.localStorage.setItem(pen, blue);
 //window.localStorage.setItem(computer, dell);
-//window.localStorage.setItem(phone, motorola);
 
-var value = "blue";
+//phone
+var phoneValue = "motorola"
+window.localStorage.setItem("phone", motorola);
+var phoneValue = window.localStorage.setItem("phone")
 
-window.localStorage.setItem("pen",value);
+//pen
+var penValue = "blue";
+window.localStorage.setItem("pen",penValue);
+var penValue = window.localStorage.getItem("pen");
 
-var value = window.localStorage.getItem("pen");
-
-//simple
-//window.alert(value);
-
-//better
+//better text output
 $(function () {          
-    $("#myText").text(value);
+    $("#myText").text(penValue);
 });
+
+window.alert(localStorage.length);
